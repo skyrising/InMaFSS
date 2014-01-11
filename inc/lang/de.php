@@ -126,6 +126,7 @@ switch ($key) {
 
     case 'updates':
         $loc['title'] = 'Updates';
+        $loc['current.version'] = 'Aktuelle Version';
         $loc['no.updates'] = 'Keine Updates';
         $loc['update.to.version'] = 'Updaten auf Version';
         $loc['missed.updates'] = 'Sie haben die folgenden Updates verpasst';

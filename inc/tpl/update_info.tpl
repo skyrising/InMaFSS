@@ -22,7 +22,11 @@
 
  lang()->add('updates'); ?>
 <div class="round" style="width:60%; border:2px solid black; margin:5px auto;">
-<h2><?php lang()->loc('title'); ?></h2><br>
+<h2><?php lang()->loc('title'); ?></h2>
+<h3><?php 
+  require_once('../version.php');
+  echo '<h3>'.lang()->loc('current.version', false).": $version</h3>";
+?></h3><br>
 <ul>
 <?php
   $updates = getVar("update")->GetUpdates();
