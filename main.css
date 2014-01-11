@@ -115,12 +115,15 @@ label {
    height:300px;
    top:50%;
    left:50%;
-   margin-top:-150px;
-   margin-left:-200px;
+   margin-top:-151px;
+   margin-left:-201px;
    text-align:center;
    position:absolute;
-   border:1px solid black;
    background-color:#DADADA;
+   border: 2px solid black;
+   border-radius: 20px;
+   overflow: hidden;
+   padding-bottom: 10px;
 }
 
 a {
@@ -213,7 +216,7 @@ a {
    padding-bottom: 10px;
 }
 
-.content > div.round > h2, .admincols > div.round > h2 {
+.content > div.round > h2, .admincols > div.round > h2, .login > h2 {
    border-top-left-radius: 17px;
    border-top-right-radius: 17px;
    background: #0080ff;
